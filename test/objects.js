@@ -641,4 +641,4 @@ const object = [
   },
 ];
 
-module.exports = { object };
+module.exports = object;
