@@ -1,0 +1,25 @@
+{
+  "name": "delite",
+  "version": "1.0.0",
+  "description": "remove specific fields in objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxpwt/delit.git"
+  },
+  "keywords": [
+    "delit",
+    "clean",
+    "remove",
+    "deep"
+  ],
+  "author": "Ismael A. Soschinski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mxpwt/delit/issues"
+  },
+  "homepage": "https://github.com/mxpwt/delit#readme"
+}
