@@ -58,4 +58,4 @@ function clearObjectsEmpties(obj, args) {
   }
   return obj;
 }
-module.exports = { delit: delit };
+module.exports = delit;
