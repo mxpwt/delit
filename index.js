@@ -24,6 +24,7 @@ function delit(obj) {
     var oK = String(obj[key]);
     if (args && args.includes("undefined") && oK === "undefined")
       obj[key] = "undefined";
+    if (obj[key] === undefined) delete obj[key];
     if (args && args.includes("NaN") && oK === "NaN") obj[key] = "NaN";
     var vrfy = !!difference.includes(oK);
     (obj[key] &&
